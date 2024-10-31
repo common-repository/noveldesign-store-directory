@@ -1,0 +1,67 @@
+/*
+ * Wp Shop Admin Styles
+ * Styled used for the back-end of the website
+ */
+
+.field-container{
+
+}
+.field-container .field{
+	margin-bottom: 10px;
+}
+.field-container label,
+.field-container small,
+.field-container input,
+.field-container textarea{
+	display: block;
+}
+.field-container label{
+	margin-bottom: 3px;
+}
+.field-container small{
+	margin-bottom: 3px;
+}
+.field-container input,
+.field-container textarea{
+	max-width: 300px;
+	width: 100%;
+}
+
+.shop_button {
+    background-color: #666666;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.shop_remove_button {
+    background-color: #f44336;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+.custom-img-container img {
+    margin-top: 5px;
+}
+.panel{
+    padding:10px;
+    background:#fff;
+}
+.panel-heading{
+    font-weight: bold;
+    padding:5px 0px;
+    border-bottom:1px solid #cdcdcd;
+}
+.table tr td input[type="text"]{width:100%}
+#save_trading_hours{float:right}

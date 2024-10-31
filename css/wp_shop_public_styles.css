@@ -1,0 +1,97 @@
+/*
+ * Wp Shop Public Styles
+ * Styled used for the front-end of the website
+ */
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; 
+    display: table; 
+}
+.cf:after {
+    clear: both;
+}
+/* The containing box with a nice white background */
+.pagination {
+	font-family: sans-serif;
+	padding: 1em;
+	background: #fff;
+	background: hsl(0, 0%, 100%);
+}
+/* Remove bullets and list indentation */
+.pagination ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+/* Make the list items appear horizontally */
+.pagination li {
+	display: inline;
+}
+/* Give each link and the current item some padding to make them easy to click */
+a.page-numbers,
+span.page-numbers {
+	padding: .3em .7em;
+	color: #333;
+	color: hsl(0, 0%, 20%);
+}
+/* Link hover state */
+a:hover.page-numbers {
+	color: #000;
+	color: hsl(0, 0%, 0%);
+}
+/* Current page bold and dark */
+.pagination .current {
+	font-weight: bold;
+	color: #000;
+	color: hsl(0, 0%, 0%);
+}
+/* table#shop_table td {
+    padding: 5px 10px;
+    vertical-align: middle;
+} */
+.dark {font-weight: bold;}
+.single_search_form input.form-control {
+    padding: 20px 10px;
+}
+.letter_display,.category_display{
+	text-align: left;
+}
+.letter_display a {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+.category_display a{
+    margin-bottom: 10px;
+    text-align: left;
+}
+.search_display_list{
+	text-align: left;
+}
+.btn-info {
+    color: #fff; min-width: 55px;
+    background-color: #222222 !important;
+    border-color: #333333 !important;
+}
+
+
+.trade-hours {background: #ebebeb; border-radius: 0px 0px 4px 4px; padding: 10px 0px 5px 0px; text-align: center;}
+.trade-hours p  {font-size: 12px; font-weight: bold;}
+
+
+.input-group.mb-3.custom_search_wrap {width: 310px;margin: 0 auto;}
+.row_content{margin-bottom: 25px;margin-top: 25px;}
+.custom_search_wrap .search_btn{min-width: 100px;margin: 0;}
+.custom_search_wrap .search_btn:hover{min-width: 100px;padding: 11px;border: 0px;font-size : 12px !important;margin: 0;}
+#shop_table table{font-weight: normal !important;}
+.shop_carousel .items .item img, .similar-shops .items img {filter: grayscale(100%); opacity: 0.7; max-height: 140px; height: 140px; width: auto; max-width: 210px;}
+.shop_carousel  .items .item:hover img, .similar-shops .items:hover img {filter: grayscale(0%); -webkit-transition: all 1s; transition: all 1s; opacity: 1;}
+.shop_carousel  .items .item{margin-bottom:10px}
+.flex-direction-nav a:before{font-size:32px !important;}
+/* #shop_table.table-bordered td,#shop_table.table-bordered th {border: 1px solid #dee2e6 !important;} /*/
+.no-restaurants{opacity:0.7}
+@media only screen and (max-width: 600px) {
+ .input-group.mb-3.custom_search_wrap{width: 260px;}
+ .custom_search_wrap .search_btn{margin: 0px;}
+}
